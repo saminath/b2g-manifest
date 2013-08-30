@@ -89,12 +89,12 @@
   <project path="prebuilt" name="platform/prebuilt" revision="447ea790fcc957dde59730ecc2a65ca263bdc733"/>
 
   <!-- novo7 fire specific things -->
-  <project path="system/bluetooth" name="nv7fire/system/bluetooth" remote="github" revision="master" />
-  <project path="system/core" name="nv7fire/system/core" remote="github" revision="master" />
-  <project path="system/extras" name="nv7fire/system/extras" remote="github" revision="master" />
-  <project path="system/media" name="nv7fire/system/media" remote="github" revision="master" />
-  <project path="system/netd" name="nv7fire/system/netd" remote="github" revision="master" />
-  <project path="system/vold" name="nv7fire/system/vold" remote="github" revision="master" /> 
+  <project path="system/bluetooth" name="nv7fire-system-bluetooth" remote="github" revision="master" />
+  <project path="system/core" name="nv7fire-system-core" remote="github" revision="master" />
+  <project path="system/extras" name="nv7fire-system-extras" remote="github" revision="master" />
+  <project path="system/media" name="nv7fire-system-media" remote="github" revision="master" />
+  <project path="system/netd" name="nv7fire-system-netd" remote="github" revision="master" />
+  <project path="system/vold" name="nv7fire-system-vold" remote="github" revision="master" /> 
 
   <project path="device/google" name="nv7fire-device-google" remote="github" revision="master" />
   <project path="device/sample" name="nv7fire-device-sample" remote="github" revision="master" />
