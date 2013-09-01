@@ -19,7 +19,7 @@
   </project>
 
   <project path="gaia" name="gaia.git" remote="mozillaorg" revision="v1-train"/>
-  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="v1-train"/>
+  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="gecko-18"/>
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="v1-train"/>
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="v1-train"/>
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="v1-train"/>
@@ -83,14 +83,15 @@
   <project path="external/webp" name="nv7fire-external-webp" />
   <project path="external/webrtc" name="nv7fire-external-webrtc" />
   <project path="external/wpa_supplicant" name="nv7fire-external-wpa_supplicant" />
-  <project path="external/hostap" name="nv7fire-external-hostap" />
   <project path="external/zlib" name="nv7fire-external-zlib" />
   <project path="external/yaffs2" name="nv7fire-external-yaffs2" />
 
   <project path="frameworks/base" name="nv7fire-frameworks-base" />
-  <project path="frameworks/opt/emoji" name="nv7fire-frameworks-opt/emoji" />
+  <project path="frameworks/opt/emoji" name="nv7fire-frameworks-opt-emoji" />
   <project path="frameworks/support" name="nv7fire-frameworks-support" />
-
+<!--
+  <project path="external/hostap" name="nv7fire-external-hostap" />
+-->
   <project path="libcore" name="nv7fire-libcore" />
   <project path="ndk" name="nv7fire-ndk" />
   <project path="prebuilt" name="nv7fire-prebuilt" />
