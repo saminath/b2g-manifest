@@ -82,16 +82,23 @@
   <project path="external/tremolo" name="nv7fire-external-tremolo" />
   <project path="external/webp" name="nv7fire-external-webp" />
   <project path="external/webrtc" name="nv7fire-external-webrtc" />
-  <project path="external/wpa_supplicant" name="nv7fire-external-wpa_supplicant" />
+  <project path="external/wpa_supplicant_8" name="nv7fire-external-wpa_supplicant_8" />
   <project path="external/zlib" name="nv7fire-external-zlib" />
   <project path="external/yaffs2" name="nv7fire-external-yaffs2" />
+
+  <project path="external/svox" name="nv7fire-external-svox" />
+  <project path="external/clang" name="nv7fire-external-clang" />
+  <project path="external/fw_env" name="nv7fire-external-fw_env" />
+  <project path="external/alsa-lib" name="nv7fire-external-alsa-lib" />
+  <project path="external/mtd-utils" name="nv7fire-external-mtd-utils" />
 
   <project path="frameworks/base" name="nv7fire-frameworks-base" />
   <project path="frameworks/opt/emoji" name="nv7fire-frameworks-opt-emoji" />
   <project path="frameworks/support" name="nv7fire-frameworks-support" />
-<!--
-  <project path="external/hostap" name="nv7fire-external-hostap" />
--->
+
+  <project path="packages/amlogic/LibPlayer" name="nv7fire-packages-amlogic-LibPlayer" />
+  <project path="packages/wallpapers" name="nv7fire-packages-wallpapers" />
+
   <project path="libcore" name="nv7fire-libcore" />
   <project path="ndk" name="nv7fire-ndk" />
   <project path="prebuilt" name="nv7fire-prebuilt" />
