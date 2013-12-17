@@ -13,13 +13,13 @@
   <project name="platform_build" path="build" remote="seinlin" revision="b2g-4.4_r1.2">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project name="gecko" path="gecko" remote="mozillaorg" revision="master" />
-  <project name="gaia" path="gaia" remote="mozillaorg" revision="master"/>
+  <project name="gecko" path="gecko" remote="seinlin" revision="master"/>
+  <project name="gaia" path="gaia" remote="seinlin" revision="master"/>
   <project name="rilproxy" path="rilproxy" remote="b2g" revision="master"/>
   <project name="fake-libdvm" path="dalvik" remote="b2g" revision="master"/>
-  <project name="valgrind" path="external/valgrind" remote="b2g" revision="fxos" />
-  <project name="vex" path="external/VEX" remote="b2g" revision="fxos" />
-  <project name="apitrace" path="external/apitrace" remote="apitrace" revision="master" />
+  <project name="valgrind" path="external/valgrind" remote="b2g" revision="fxos"/>
+  <project name="vex" path="external/VEX" remote="b2g" revision="fxos"/>
+  <project name="apitrace" path="external/apitrace" remote="apitrace" revision="master"/>
  
   <project name="moztt" path="external/moztt" remote="seinlin" revision="master"/>
   <project name="gonk-misc" path="gonk-misc" remote="seinlin" revision="master"/>
