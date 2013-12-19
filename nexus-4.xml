@@ -2,7 +2,7 @@
 
   <include name="base-kk.xml"/>
 
-  <default remote="caf" revision="refs/tags/android-4.4_r1.2" sync-j="4"/>
+  <default remote="caf" revision="refs/tags/android-4.4.2_r1" sync-j="4"/>
 
   <!-- Nexus 4 specific things -->
   <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
@@ -23,7 +23,7 @@
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
   <project name="platform/hardware/ril" path="hardware/ril"/>
 
-  <project name="device-mako" path="device/lge/mako" remote="seinlin" revision="b2g-4.4_r1.2"/>
-  <project name="gonk-patches" path="patches" remote="seinlin" revision="b2g-4.4_r1.2"/>
+  <project name="device-mako" path="device/lge/mako" remote="seinlin" revision="b2g-4.4.2_r1"/>
+  <project name="gonk-patches" path="patches" remote="seinlin" revision="b2g-4.4.2_r1"/>
 
 </manifest>

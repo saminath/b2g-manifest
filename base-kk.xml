@@ -10,7 +10,7 @@
   <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
 
   <!-- B2G specific things. -->
-  <project name="platform_build" path="build" remote="seinlin" revision="b2g-4.4_r1.2">
+  <project name="platform_build" path="build" remote="seinlin" revision="b2g-4.4.2_r1">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project name="gecko" path="gecko" remote="seinlin" revision="master"/>
@@ -145,7 +145,7 @@
   <project name="platform/external/tinycompress" path="external/tinycompress" revision="aosp-new/master"/>
   <project name="platform/external/libunwind" path="external/libunwind" revision="aosp-new/master"/>
 
-  <project name="platform_frameworks_av" path="frameworks/av" remote="seinlin" revision="b2g-4.4_r1.2"/>
-  <project name="platform_system_core" path="system/core" remote="seinlin" revision="b2g-4.4_r1.2"/>
+  <project name="platform_frameworks_av" path="frameworks/av" remote="seinlin" revision="b2g-4.4.2_r1"/>
+  <project name="platform_system_core" path="system/core" remote="seinlin" revision="b2g-4.4.2_r1"/>
 
 </manifest>
