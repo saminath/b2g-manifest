@@ -24,6 +24,5 @@
   <project name="platform/hardware/ril" path="hardware/ril"/>
 
   <project name="device-hammerhead" path="device/lge/hammerhead" remote="b2g" revision="b2g-4.4.2_r1"/>
-  <project name="gonk-patches" path="patches" remote="seinlin" revision="b2g-4.4.2_r1"/>
 
 </manifest>
